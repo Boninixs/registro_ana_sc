@@ -1,0 +1,23 @@
+# Credenciais — nunca commitar
+.env
+.env.*
+!.env.example
+
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dados grandes gerados localmente (mantém apenas .gitkeep nas pastas)
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Notebooks — checkpoints
+.ipynb_checkpoints/
+
+# SO
+.DS_Store
