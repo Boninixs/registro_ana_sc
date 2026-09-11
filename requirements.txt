@@ -7,6 +7,8 @@ pytest>=8.0
 # Fase 1 — autenticação e acesso à API da ANA
 requests>=2.31
 python-dotenv>=1.0
+notebook>=7.0
+ipykernel>=6.29
 
 # Fase 4 — índices de extremos
 xclim>=0.50          # ETCCDI (validação cruzada)

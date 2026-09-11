@@ -1,18 +1,5 @@
 """
-Autenticação na API HidroWebService da ANA (EstacoesTelemetricas — séries de estações).
-
-Credenciais NUNCA ficam no código nem no repositório: são lidas de variáveis
-de ambiente (ANA_IDENTIFICADOR, ANA_SENHA), carregadas de um arquivo .env
-local que fica fora do git (ver .env.example e .gitignore).
-
-Endpoint confirmado no manual oficial "Tutorial de Serviço para Consumo de
-Dados - API HidroWebService" (ANA, versão 20.02.2026): GET
-/EstacoesTelemetricas/OAUth/v1, credenciais nos headers Identificador/Senha,
-token em items.tokenautenticacao, válido por 60 minutos. O cadastro de acesso
-é feito por e-mail a hidro@ana.gov.br (ver item 1.1 do manual) — é um cadastro
-separado do usado em www.snirh.gov.br/dadoshidrometereologicos.
-
-Ver docs/DECISOES.md, Fase 1.
+Autenticação na API HidroWebService da ANA 
 """
 
 from __future__ import annotations
